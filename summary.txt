@@ -1,0 +1,18 @@
+Summary of Grocery Store Simulation (SimPy Lab)
+
+In this simulation, shoppers arrived every 2 minutes, selected between 5 and 20 random items,
+and completed shopping based on a shopping speed of 2 items per minute. Checkers processed
+10 items per minute with a minimum checkout time of 1 minute.
+
+Simulation Results:
+- Total shoppers served: 92
+- Average wait time: 2.54 minutes
+- Average shopping time: 6.38 minutes
+- Average items purchased: 12.76
+- Maximum wait time: 3.70 minutes
+- Total idle time across all checkers: 1124 minutes
+
+Observations:
+- More checkers greatly reduced wait times.
+- Excess checkers led to more idle time.
+- Customer arrival rates and random shopping times caused fluctuations in checkout congestion.
